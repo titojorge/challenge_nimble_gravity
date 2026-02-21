@@ -61,7 +61,6 @@ const Jobs = () => {
         toast.success("Postulación enviada correctamente") : 
         toast.error("Ocurrio un error inesperado, comuniquese con su administrador")
     }).catch((error) => {
-      //console.log("mensaje de error", error);
       toast.error(error.message);
     })
   }
